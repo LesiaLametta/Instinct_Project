@@ -38,7 +38,9 @@
 }
 
 .owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 10px
+    margin-top: 10px;
+    position: relative;
+    bottom: 57px;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -60,6 +62,7 @@
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    border: 2px solid #c10101;
+    border: 2px solid 
+    #c10101;
     background-color: #c10101;
 }
