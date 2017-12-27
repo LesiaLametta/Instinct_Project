@@ -16,6 +16,8 @@ body {
 
 
 
+
+
 /*============ Up Header ============*/
 
 .bg {
@@ -130,6 +132,8 @@ body {
 
 
 
+
+
 /*.up_header .up_right p {
     color: #9c9b9b;
     font-size: 12px;
@@ -151,6 +155,8 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
+
+
 
 
 
@@ -305,6 +311,8 @@ body {
 
 
 
+
+
 /*.mid_right {
     margin-left: 100px;
 }*/
@@ -381,6 +389,38 @@ body {
 
 
 
+
+.anicon-facebook span:before {
+    content: "\32";
+}
+
+.anicon-twitter:before {
+    content: "\36";
+}
+
+.anicon-rss:before {
+    content: "\35";
+}
+
+.anicon-youtube:before {
+    content: "\38";
+}
+
+.anicon-googleplus:before {
+    content: "\e900";
+}
+
+.anicon-pinterest:before {
+    content: "\34";
+}
+
+.anicon-vimeo:before {
+    content: "\37";
+}
+
+.anicon-instagram:before {
+    content: "\33";
+}
 
 
 
@@ -489,6 +529,7 @@ body {
 .slider.owl-theme .owl-dots .owl-dot.active span {
     background: #c10101;
 }
+
 .slider.owl-theme .owl-dots .owl-dot span {
     border: 2px solid #c10101;
     background: none;
@@ -538,6 +579,8 @@ body {
 
 
 
+
+
 /*===============Support=============*/
 
 .support {
@@ -556,8 +599,9 @@ body {
 
 .support_item img {
     display: inline-block;
-/*    width: 39px;
-*/  margin: 0 auto;
+    /*    width: 39px;
+*/
+    margin: 0 auto;
     margin-bottom: 4px;
 }
 
@@ -584,6 +628,8 @@ body {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
 
 
 
@@ -745,6 +791,8 @@ body {
 
 
 
+
+
 /*===============Products Items===================*/
 
 .products .title {
@@ -773,17 +821,18 @@ body {
 }
 
 .hover_item {
-    /*    display: none;
-*/
+    display: none;
     position: absolute;
-    top: 45%;
-    left: 19%;
-    right: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    flex-direction: column;
 }
 
 .row_img:hover .hover_item {
+    display: flex;
     cursor: pointer;
-    display: block;
     transition: all 0.3s ease;
 }
 
@@ -809,6 +858,8 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 0;
 }
 
 .color_dot {
@@ -997,6 +1048,8 @@ button.all_products:hover {
 
 
 
+
+
 /*=========Newsletter===========*/
 
 .newsletter h3 {
@@ -1092,20 +1145,6 @@ button.all_products:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-/*.footer_options {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
 
 .products_options ul {
     list-style-type: none;
