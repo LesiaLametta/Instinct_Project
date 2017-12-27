@@ -15,23 +15,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*============ Up Header ============*/
 
 .bg {
@@ -137,6 +120,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 /*.up_header .up_right p {
     color: #9c9b9b;
     font-size: 12px;
@@ -158,6 +149,14 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -265,6 +264,14 @@ body {
     font-size: 26px;
     padding-left: 10px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -410,6 +417,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 /*==================Slider==================*/
 
 .slider img {
@@ -501,6 +516,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 /*===============Support=============*/
 
 .support {
@@ -543,10 +566,18 @@ body {
     font-size: 13px;
     font-weight: 300;
     line-height: 19.97px;
-    max-width: 242px;
+    max-width: 252px;
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -689,6 +720,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 /*
 .owl-dots {
     position: absolute;
@@ -724,26 +763,80 @@ body {
     padding-bottom: 12px;
 }
 
-.row1 {
+.row_all {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    margin: 2px 5px;
-}
-
-.row2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: -27px 10px;
 }
 
 .row_item {
-    display: inline-block;
     position: relative;
 }
+
+.row_img {
+    position: relative;
+}
+
+.hover_item {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    right: 15%;
+}
+
+.row_img:hover .hover_item {
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+
+.view {
+    background-color: #c10101;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 22px 43px;
+    border: #c10101;
+}
+
+.view:hover {
+    background-color: #610303;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.color_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 101px;
+}
+
+.color_dot {
+    justify-content: space-around;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.color_dot.color1 {
+    border: 1px solid #9b9b9b;
+    background-color: #c9910b;
+}
+
+.color_dot.color2 {
+    border: 1px solid #ffffff;
+    background-color: #2d2d2e;
+}
+
+.color_dot.color3 {
+    border: 1px solid #9b9b9b;
+    background-color: #64215a;
+}
+
 
 .product_description .discount_product {
     position: absolute;
@@ -759,7 +852,7 @@ body {
 .product_description .new_product {
     position: absolute;
     top: 2%;
-    right: 12%;
+    right: 2%;
     background-color: #c10101;
     text-transform: uppercase;
     padding: 7px;
@@ -770,11 +863,11 @@ body {
 
 
 .product_description {
-    display: inline-block;
     text-align: left;
 }
 
 .product_description p {
+    max-width: 220px;
     color: #161918;
     font-size: 13px;
     font-weight: 300;
@@ -800,7 +893,7 @@ body {
     padding-left: 12px;
 }
 
-.products button {
+.products button.all_products {
     display: block;
     position: center;
     margin: 0 auto;
@@ -816,13 +909,18 @@ body {
     border: none;
 }
 
+button.all_products:hover {
+    background-color: #610303;
+    transition: all 0.3s;
+}
+
 .products button,
 .slider_description button:focus {
     outline: none;
 }
 
 
-.products button:hover {
+.products button.all_products:hover {
     cursor: pointer;
 }
 
@@ -865,6 +963,14 @@ body {
     line-height: 26px;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -980,6 +1086,14 @@ body {
     text-transform: uppercase;
     padding-bottom: 30px;
 }
+
+
+
+
+
+
+
+
 
 
 
