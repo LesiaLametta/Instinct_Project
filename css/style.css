@@ -20,6 +20,10 @@ body {
 
 
 
+
+
+
+
 /*============ Up Header ============*/
 
 .bg {
@@ -138,6 +142,10 @@ body {
 
 
 
+
+
+
+
 /*.up_header .up_right p {
     color: #9c9b9b;
     font-size: 12px;
@@ -159,6 +167,10 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
+
+
+
+
 
 
 
@@ -321,6 +333,10 @@ body {
 
 
 
+
+
+
+
 /*.mid_right {
     margin-left: 100px;
 }*/
@@ -385,6 +401,10 @@ body {
     padding-top: 15px;
     vertical-align: bottom;
 }
+
+
+
+
 
 
 
@@ -464,7 +484,7 @@ body {
 
 .owl-dots {
     position: absolute;
-    bottom: 25%;
+    bottom: 2%;
     left: 50%;
     transform: translate(-50%);
     border-radius: none;
@@ -474,11 +494,32 @@ body {
     border-radius: none;
 }
 
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+    position: relative;
+}
 
+.owl-theme .owl-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    opacity: .5;
+    cursor: default;
+    color: #a9a9a9;
+}
 
-
-
-
+.owl-theme .owl-nav [class*=owl-] {
+    color: #a9a9a9;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0;
+}
 
 
 
@@ -510,7 +551,7 @@ body {
 /*===============Support=============*/
 
 .support {
-    padding-top: 16px;
+    padding-top: 62px;
     padding-right: 13px;
     display: flex;
     justify-content: center;
@@ -554,6 +595,10 @@ body {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
+
 
 
 
@@ -673,6 +718,10 @@ body {
     line-height: 26px;
     text-transform: uppercase;
 }
+
+
+
+
 
 
 
@@ -944,6 +993,10 @@ button.all_products:hover {
     line-height: 26px;
     text-transform: uppercase;
 }
+
+
+
+
 
 
 
