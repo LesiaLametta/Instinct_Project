@@ -18,6 +18,8 @@ body {
 
 
 
+
+
 /*============ Up Header ============*/
 
 .bg {
@@ -134,6 +136,8 @@ body {
 
 
 
+
+
 /*.up_header .up_right p {
     color: #9c9b9b;
     font-size: 12px;
@@ -155,6 +159,8 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
+
+
 
 
 
@@ -313,6 +319,8 @@ body {
 
 
 
+
+
 /*.mid_right {
     margin-left: 100px;
 }*/
@@ -377,90 +385,6 @@ body {
     padding-top: 15px;
     vertical-align: bottom;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.anicon-facebook span:before {
-    content: "\32";
-}
-
-.anicon-twitter:before {
-    content: "\36";
-}
-
-.anicon-rss:before {
-    content: "\35";
-}
-
-.anicon-youtube:before {
-    content: "\38";
-}
-
-.anicon-googleplus:before {
-    content: "\e900";
-}
-
-.anicon-pinterest:before {
-    content: "\34";
-}
-
-.anicon-vimeo:before {
-    content: "\37";
-}
-
-.anicon-instagram:before {
-    content: "\33";
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -549,6 +473,8 @@ body {
 .owl-dot {
     border-radius: none;
 }
+
+
 
 
 
@@ -684,6 +610,8 @@ body {
 
 
 
+
+
 /*===========Static============*/
 
 .static {
@@ -745,6 +673,8 @@ body {
     line-height: 26px;
     text-transform: uppercase;
 }
+
+
 
 
 
@@ -1050,6 +980,8 @@ button.all_products:hover {
 
 
 
+
+
 /*=========Newsletter===========*/
 
 .newsletter h3 {
@@ -1098,8 +1030,7 @@ button.all_products:hover {
 .email_icon .material-icons {
     position: absolute;
     top: 30%;
-    right: 13%;
-    width: 18px;
+    right: 11%;
     height: 13px;
     color: #d3d3da;
 }
@@ -1121,7 +1052,7 @@ button.all_products:hover {
     justify-content: space-around;
     align-items: center;
     background-color: #2e2b2b;
-    padding-top: 81px;
+    padding: 81px 0;
 }
 
 .footer2 .container {
@@ -1138,7 +1069,6 @@ button.all_products:hover {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    padding-bottom: 30px;
 }
 
 
@@ -1148,7 +1078,6 @@ button.all_products:hover {
 
 .products_options ul {
     list-style-type: none;
-    margin-bottom: 81px;
 }
 
 .products_options li {
