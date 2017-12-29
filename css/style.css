@@ -5,21 +5,9 @@
 
 body {
     font-family: Montserrat, sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -48,8 +36,6 @@ body {
 
 .up_left {
     display: inline-block;
-    /*    padding-left: 10px;
-*/
 }
 
 .up_item {
@@ -123,37 +109,6 @@ body {
     padding-right: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.up_header .up_right p {
-    color: #9c9b9b;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 24px;
-    padding-right: 15px;
-}*/
-
 .up_header .up_right a {
     text-decoration: none;
     font-size: 12px;
@@ -167,68 +122,6 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -278,8 +171,6 @@ body {
     display: inline-block;
     position: center;
     margin-right: 58px;
-    /*    vertical-align: top;
-*/
 }
 
 
@@ -295,48 +186,6 @@ body {
     font-size: 26px;
     padding-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -405,14 +254,6 @@ body {
     padding-top: 15px;
     vertical-align: bottom;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -515,7 +356,6 @@ body {
 
 .owl-nav:hover {
     background-color: #fff;
-
 }
 
 .slider.owl-theme .owl-nav>div {
@@ -532,13 +372,12 @@ body {
 
 
 
-.slider.owl-theme .owl-nav .disabled{
+.slider.owl-theme .owl-nav .disabled {
     opacity: 1;
-
 }
 
 
-.slider.owl-theme .owl-nav .owl-prev{
+.slider.owl-theme .owl-nav .owl-prev {
     margin-right: -1px;
 }
 
@@ -551,28 +390,6 @@ body {
 .slider.owl-theme .owl-nav [class*=owl-] i {
     font-size: 38px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -628,64 +445,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*===========Static============*/
 
 .static {
@@ -704,6 +463,7 @@ body {
 .static_item img {
     max-width: 100%;
 }
+
 .border {
     display: inline-block;
     position: relative;
@@ -752,56 +512,6 @@ body {
     line-height: 26px;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1037,46 +747,7 @@ button.all_products:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*=========Newsletter===========*/
-
 
 .newsletter {
     display: flex;
@@ -1112,21 +783,20 @@ button.all_products:hover {
 
 form {
     position: relative;
+    width: 100%;
 }
 
 .form-control {
     border: 1px solid #eeeeee;
     outline: none;
     display: inline-block;
-    width: 529px;
     height: 56px;
     background-color: #f9f9fa;
     font-size: 13px;
     text-align: left;
     color: #939398;
     padding-left: 21px;
-    transition: all 0.3s;
-    max-width: 100%;
+    max-width: 529px;
 }
 
 .email_icon .material-icons {
@@ -1299,12 +969,12 @@ h5 {
 
 
 @media (max-width: 768px) {
-    .items li .material-icons{
+    .items li .material-icons {
         font-size: 21px;
     }
 
     .items li .material-icons {
-        font-size: 
+        font-size:
     }
 }
 
@@ -1319,7 +989,8 @@ h5 {
     .footer_info p {
         font-size: 11px;
     }
-    .footer_address p, .footer_address h5  {
+    .footer_address p,
+    .footer_address h5 {
         font-size: 11px;
     }
     .footer_info .social_link {
@@ -1337,9 +1008,8 @@ h5 {
     }
     .mid_header {
         justify-content: space-between;
-
     }
-    .mid_header .contact  {
+    .mid_header .contact {
         display: none;
     }
     .mid_header .burger {
@@ -1358,13 +1028,40 @@ h5 {
     .slider_description h2 {
         font-size: 41px;
     }
-    
+
     .mid_right .number {
-    color: #ffffff;
-    font-size: 8px;
+        color: #ffffff;
+        font-size: 8px;
+    }
 }
 
 @media (max-width: 480px) {
-    
-}
 
+    .slider_description h2 {
+        font-size: 30px;
+    }
+    .footer_info p {
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .footer_address p,
+    .footer_address h5 {
+        font-size: 11px;
+    }
+
+    .cards {
+        margin-left: 11px;
+    }
+    .footer_titles {
+        font-size: 14px;
+    }
+
+    .products_options a {
+        font-size: 11px;
+    }
+    .footer2 {
+        padding: 10px 0;
+    }
+}
