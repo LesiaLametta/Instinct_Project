@@ -12,6 +12,10 @@ body {
 
 
 
+
+
+
+
 /*============ Up Header ============*/
 
 .bg {
@@ -126,6 +130,10 @@ body {
 
 
 
+
+
+
+
 /*=============== Mid Header ================*/
 
 .mid_header {
@@ -184,8 +192,12 @@ body {
 .mid_right .material-icons {
     color: #000000;
     font-size: 26px;
-    padding-left: 10px;
+    padding: 0 10px;
 }
+
+
+
+
 
 
 
@@ -254,6 +266,10 @@ body {
     padding-top: 15px;
     vertical-align: bottom;
 }
+
+
+
+
 
 
 
@@ -394,6 +410,10 @@ body {
 
 
 
+
+
+
+
 /*===============Support=============*/
 
 .support {
@@ -441,6 +461,10 @@ body {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
+
 
 
 
@@ -512,6 +536,10 @@ body {
     line-height: 26px;
     text-transform: uppercase;
 }
+
+
+
+
 
 
 
@@ -747,6 +775,10 @@ button.all_products:hover {
 
 
 
+
+
+
+
 /*=========Newsletter===========*/
 
 .newsletter {
@@ -777,14 +809,16 @@ button.all_products:hover {
 }
 
 .email_form {
-    display: inline-block;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 form {
     position: relative;
-    width: 100%;
+    margin: 0 auto;
+    width: 54%;
 }
+
 
 .form-control {
     border: 1px solid #eeeeee;
@@ -796,7 +830,7 @@ form {
     text-align: left;
     color: #939398;
     padding-left: 21px;
-    max-width: 529px;
+    width: 100%;
 }
 
 .email_icon .material-icons {
@@ -976,6 +1010,9 @@ h5 {
     .items li .material-icons {
         font-size:
     }
+    .support {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 640px) {
@@ -1033,7 +1070,11 @@ h5 {
         color: #ffffff;
         font-size: 8px;
     }
+    .form-control {
+        width: 250px;
+    }
 }
+
 
 @media (max-width: 480px) {
 
@@ -1063,5 +1104,8 @@ h5 {
     }
     .footer2 {
         padding: 10px 0;
+    }
+    .form-control {
+        max-width: 529px;
     }
 }
